@@ -12,7 +12,7 @@ um eine der gewählten Apps Installiert werden will soll man dieses Repository c
      # Updates
       - Die Anwendungen könnten sich Aktuallisieren
       - Bitte einmal Pro Tag den Befehl:
-      -         git pull
+      -          git pull
       - Bitte im Programms Verzeichnis ausführen:
       -     cd Programms
 # Store Installation LEO
