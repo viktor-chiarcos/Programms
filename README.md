@@ -15,3 +15,7 @@ um eine der gewählten Apps Installiert werden will soll man dieses Repository c
       -         git pull
       - Bitte im Programms Verzeichnis ausführen:
       -     cd Programms
+# Store Installation LEO
+         - gehen sie im Terminal zu :
+         -  cd Programms
+         - Nun sagen sie chmod a+x LEO LEO

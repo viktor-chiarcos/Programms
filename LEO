@@ -1,4 +1,4 @@
-cd /home/timofey-rybkin/Programms/Programm-elements/LEO
+cd Programms
 
 less About
 
