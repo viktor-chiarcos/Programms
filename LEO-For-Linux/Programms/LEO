@@ -1,0 +1,12 @@
+cd /home/timofey-rybkin/Programms/Programm-elements/LEO
+
+less About
+
+less Wilkommen
+
+less Woerterbuch
+
+echo "Ich habe dich lieb - Ya tebya lyblue"
+echo "Komm wieder mal vorbei :) - Idi kogdata snova Kamne :)"
+echo "Zum oeffnen sagen sie ./LEO - Tschobo otkrit snowo skagite ./LEO"
+echo "Mehr  Information auf leo.org oder in der LEO App - Bolsche Informazij na leo.org ili w LEO Prilogenia"
