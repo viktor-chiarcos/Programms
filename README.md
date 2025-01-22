@@ -19,7 +19,3 @@ um eine der gewählten Apps Installiert werden will soll man dieses Repository c
          - gehen sie im Terminal zu :
          -        cd Programms
          - Nun sagen sie chmod a+x LEO LEO
-# Store Installation Mathe
-         - gehen sie im Terminal zu
-         -        cd Programms
-         - Nun sagen sie chmmod a+x Mathe Mathe
