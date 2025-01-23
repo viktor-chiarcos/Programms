@@ -10,12 +10,15 @@ um eine der gewählten Apps Installiert werden will soll man dieses Repository c
      -   sagen sie ./ Und den Namen der Datei 
  &nbsp;
      # Updates
-      - Die Anwendungen könnten sich Aktuallisieren
-      - Bitte einmal Pro Tag den Befehl:
-      -          git pull
+       - Die Anwendungen könnten sich Aktuallisieren
+       - Bitte einmal Pro Tag den Befehl:
+       -          git pull
       - Bitte im Programms Verzeichnis ausführen:
       -     cd Programms
 # Store Installation LEO
-         - gehen sie im Terminal zu :
          -        cd Programms
-         - Nun sagen sie chmod a+x LEO LEO
+         -       chmod a+x LEO LEO
+# Store Installation Erdkarte
+         -        cd Programms
+         -        sudo apt install eom
+         -        chmod a+x Erdkarte Erdkarte
