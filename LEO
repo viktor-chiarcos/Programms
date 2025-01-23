@@ -1,10 +1,11 @@
-cd Programms
+cd Programms/Programm-elements/LEO
 
 less About
 
 less Wilkommen
 
 less Woerterbuch
+
 
 echo "Ich habe dich lieb - Ya tebya lyblue"
 echo "Komm wieder mal vorbei :) - Idi kogdata snova Kamne :)"
