@@ -17,6 +17,8 @@ um eine der gewählten Apps Installiert werden will soll man dieses Repository c
       -     cd Programms
 # Store Installation LEO
          -        cd Programms
+         - Nun sagen sie chmod a+x LEO LEO
+=======
          -       chmod a+x LEO LEO
 # Store Installation Erdkarte
          -        cd Programms
