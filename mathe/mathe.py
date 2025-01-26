@@ -1,7 +1,8 @@
+import random
+
 print("""Bitte löse die Aufgabe.
 Wenn Du eine Antwort nicht schon auswendig kennst,
 verwende die Nachbarschaftsmethode.""")
-
 
 line="NIX"
 while(line.strip()!=""):
