@@ -1,4 +1,6 @@
-import random
+import re,random,time
+
+operator2times={}
 
 print("""Bitte löse die Aufgabe.
 Wenn Du eine Antwort nicht schon auswendig kennst,
@@ -40,6 +42,7 @@ while(line.strip()!=""):
 			solution=x-y
 
 		while(line!=""):
+			print(operator2times)
 			line=input(f"{x}{operator}{y}=")
 			start_time=time.time()
 			duration=time.time()-start_time
@@ -73,5 +76,5 @@ while(line.strip()!=""):
 					print(f" {random.choice(msg)}\n\n")
 			except Exception:
 				print(" ... das war leider keine Zahl, probier nochmal\n\n")
-operator2times={}
+
 
