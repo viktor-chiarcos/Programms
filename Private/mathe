@@ -1,0 +1,1 @@
+xterm -e "cd /usr/bin ;python3 mathe.py"
