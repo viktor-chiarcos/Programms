@@ -58,7 +58,8 @@ while(line.strip()!=""):
 				break
 			try:
 				if int(line)==solution:
-					msg=random.choice(["Super!!!!!!!!!!", "Danke für deine Aufmerksamkeit", "Super, du machst es SUPER!", "Super, Keine Fehler!"
+					msg=random.choice(["Super!!!!!!!!!!", "Danke für deine Aufmerksamkeit", 
+									   "Super, du machst es SUPER!", "Super, Keine Fehler!"])
 					if len(operator2times[operator])<=len(msg):
 						pass
 					elif duration>=operator2times[operator][-1]:
