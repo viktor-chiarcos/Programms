@@ -1,4 +1,4 @@
-import re,random,time
+import re,random,time,sys
 
 operator2times={}
 
@@ -41,17 +41,20 @@ while(line.strip()!=""):
 		if operator=="-":
 			solution=x-y
 
-		while(line!=""):
-			print(operator2times)
-			line=input(f"{x}{operator}{y}=")
-			start_time=time.time()
+		start_time=time.time()
+		while line!="":
+			try:
+				line=input(f"{x}{operator}{y}=")
+			except EOFError:
+				line=""
 			duration=time.time()-start_time
+			start_time=time.time()
 			line=line.strip()
 			if line=="":
 				print("Na jut, dann bis nächstes Mal.\n")
 				for operator,times in operator2times.items():
 					if len(times)>0:
-						print(f"Für eine {operator}-Aufgabe hast du im Mittel {int(10*sum(times)/len(times))/10} (Median {int(10*times[int(len(times)/2)])/10}) Sekunden gebraucht \n")
+						print(f"Für eine {operator}-Aufgabe hast du im Mittel {int(0.5+10*sum(times)/len(times))/10} (Median {int(0.5+10*times[int(len(times)/2)])/10}) Sekunden gebraucht \n")
 				break
 			try:
 				if int(line)==solution:
