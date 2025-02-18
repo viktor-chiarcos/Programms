@@ -1,4 +1,5 @@
 # Linux Store 
+## Für Linux PCs
 
 um eine der gewählten Apps Installiert werden will soll man dieses Repository clonen:
    -        git clone https://github.com/viktor-chiarcos/Programms
