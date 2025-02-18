@@ -20,7 +20,7 @@ um eine der gewählten Apps Installiert werden will soll man dieses Repository c
            cd
 das Programms Verzeichnis öffnen
 - Dann:
-                chmod a+x LEO LEO
+         chmod a+x LEO LEO
 # Store Installation Erdkarte
 - Sie sollen mit
            cd
