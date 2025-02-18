@@ -1,4 +1,4 @@
-cd Programms/Programm-elements/LEO
+cd Programm-elements/LEO
 
 less About
 
