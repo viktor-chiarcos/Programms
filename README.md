@@ -16,9 +16,15 @@ um eine der gewählten Apps Installiert werden will soll man dieses Repository c
       - Bitte im Programms Verzeichnis ausführen:
       -     cd Programms
 # Store Installation LEO
-         -        cd Programms
-         -       chmod a+x LEO LEO
+- Sie sollen mit
+           cd
+das Programms Verzeichnis öffnen
+- Dann:
+                chmod a+x LEO LEO
 # Store Installation Erdkarte
-         -        cd Programms
+- Sie sollen mit
+           cd
+das Programms Verzeichnis öffnen
+- Dann:
          -        sudo apt install eom
          -        chmod a+x Erdkarte Erdkarte
