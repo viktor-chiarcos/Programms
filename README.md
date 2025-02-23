@@ -32,3 +32,5 @@ das Programms Verzeichnis öffnen
          -        sudo apt install eom
   
          -        chmod a+x Erdkarte Erdkarte
+
+es geht bald weiter...
