@@ -6,7 +6,7 @@ echo ""
 echo "Commit the update..."
 echo "Status:"
 echo
-git commit -a -m "update from "$HOSTNAME" with git-send"
+git commit -a -m "update on "$HOSTNAME" from "$USER" in git-send"
 echo ""
 echo "Update all files..."
 echo "Status:"
