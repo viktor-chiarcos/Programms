@@ -22,5 +22,7 @@ echo "Status:"
 echo
 git push
 echo ""
+echo "all commits:"
+echo ""
 git log
 echo ""
