@@ -6,7 +6,7 @@ echo ""
 echo "Commit the update..."
 echo "Status:"
 echo
-git commit -a -m "update from Linux-Viktor with git-send"
+git commit -a -m "update from "$HOSTNAME" with git-send"
 echo ""
 echo "Update all files..."
 echo "Status:"
@@ -18,8 +18,5 @@ echo "Status:"
 echo
 git push
 echo ""
-echo "Your changes avibale in your git repository!"
+git log
 echo ""
-echo "For changes history you can make git log"
-echo ""
-echo "Thank you"
