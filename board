@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+
+try:
+	while True:
+		eingabe = input("")
+		if eingabe == "a+a+ausgang":
+			break
+		if eingabe == 'Ich will raus':
+			break
+		if eingabe == 'help':
+			print('a+a+ausgang zum beenden verwenden')
+			print("Ich will raus zum benden verwenden")
+
+except KeyboardInterrupt:
+	# print("Huch, war da wat?")
+	pass
