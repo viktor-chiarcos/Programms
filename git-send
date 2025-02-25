@@ -13,6 +13,10 @@ echo "Status:"
 echo
 git pull
 echo ""
+echo "Please search your password."
+echo "then say exit"
+bash
+echo ""
 echo "Send on your git-repository..."
 echo "Status:"
 echo
