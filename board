@@ -12,5 +12,8 @@ try:
 			print("Ich will raus zum benden verwenden")
 
 except KeyboardInterrupt:
-	# print("Huch, war da wat?")
+	print("Huch, was war das?")
 	pass
+
+except EOFError:
+	print("Huch, was war das?")
