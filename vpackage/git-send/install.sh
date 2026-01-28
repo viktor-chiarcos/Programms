@@ -1,8 +1,7 @@
 #!/bin/bash
 
-if [ -e "~/bin" ]
-then echo ""
-else mkdir ~/bin
+if [ !e "$HOME/bin" ]
+then mkdir ~/bin
 fi
 cd ~/bin
 
