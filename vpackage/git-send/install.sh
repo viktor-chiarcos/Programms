@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ !e "$HOME/bin" ]
+if [ !e $HOME/bin ]
 then mkdir ~/bin
 fi
 cd ~/bin
