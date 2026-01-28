@@ -3,7 +3,7 @@
 printf "Klicke ENTER um die Installation zu starten oder drücke Strg/Control+C zum abbrechen"
 read
 if [ -e ~/bin ]
-echo "~/bin Ordner muss nicht erstellt werden, da er bereits exestiert"
+then echo "~/bin Ordner muss nicht erstellt werden, da er bereits exestiert"
 else mkdir ~/bin
 fi
 cd ~/bin
